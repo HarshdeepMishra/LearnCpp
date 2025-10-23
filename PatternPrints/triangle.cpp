@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void pypart2(int n)
+void triangle(int n)
 {
 
     int i, j, k = n;
@@ -23,6 +23,6 @@ void pypart2(int n)
 int main()
 {
     int n = 5;
-    pypart2(n);
+    triangle(n);
     return 0;
 }
