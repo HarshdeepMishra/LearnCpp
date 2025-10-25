@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void rightAngledTriangle(int n)
+void inverseRightAngledTriangle(int n)
 {
     for (int i = n; i >= 1; i--)
     {
@@ -16,6 +16,6 @@ int main()
     int n;
     cout << "Enter a number: " << endl;
     cin >> n;
-    rightAngledTriangle(n);
+    inverseRightAngledTriangle(n);
 
 }
