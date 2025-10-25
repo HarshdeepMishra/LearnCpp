@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void pyramid(int n)
+void rightAngledTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -14,6 +14,6 @@ void pyramid(int n)
 }
 int main()
 {
-    pyramid(5);
+    rightAngledTriangle(5);
     return 0;
 }
