@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void inverseRightAngledTriangle(int n)
+void rightAngledTriangle(int n)
 {
-    for (int i = n; i >= 1; i--)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 1; j <= i; j++ ){
+        for (int j = 0; j <= i; j++)
+        {
             cout << "*";
         }
         cout << endl;
@@ -13,9 +14,6 @@ void inverseRightAngledTriangle(int n)
 }
 int main()
 {
-    int n;
-    cout << "Enter a number: " << endl;
-    cin >> n;
-    inverseRightAngledTriangle(n);
-
+    rightAngledTriangle(5);
+    return 0;
 }
